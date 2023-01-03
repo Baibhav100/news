@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>News portal</title>
+
+
+</head>
+
+<body onload="myfunction()">
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <div class="nav">
+        <ul class="nav-items">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Copyright Policy</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Authors</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Grievance Redressal</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="images">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+
+        </div>
+    </div>
+    <div class="second">
+        <img class="img1" src="news_logo.webp" alt="">
+        <div class="lang">
+            <p style="font-weight: bold;">Assamese</p>
+            <p style="font-weight: bold;">Bengali</p>
+        </div>
+    </div>
+    <div class="third mb-4">
+        <ul class="third-links mb-0">
+            <li>
+                <a href="index.html">home</a>
+            </li>
+            <li class="northeast">
+                <a href="#">northeast
+                    <i class="fa-sharp fa-solid fa-caret-down ms-2"></i>
+                </a>
+                <div class="sublinks">
+                    <ul>
+                        <li><a href="Assam.html">Assam</a></li>
+                        <li><a href="Meghalaya.html">Meghalaya</a></li>
+                        <li><a href="Tripura.html">Tripura</a></li>
+                        <li><a href="Mizoram.html">Mizoram</a></li>
+                        <li><a href="Manipur.html">Manipur</a></li>
+                        <li><a href="Nagaland.html">Nagaland</a></li>
+                        <li><a href="Arunachal.html">Aruncahal</a></li>
+                        <li><a href="Sikkim.html">Sikkim</a></li>
+
+
+                    </ul>
+
+                </div>
+            </li>
+            <li><a href="#">national</a></li>
+            <li class="northeast"><a href="#">neighbour<i class="fa-sharp fa-solid fa-caret-down ms-2"></i></a>
+                <div class="sublinks">
+                    <ul>
+                        <li><a href="Nepal.html">Nepal</a></li>
+                        <li><a href="Bhutan.html">Bhutan</a></li>
+                        <li><a href="China.html">China</a></li>
+                        <li><a href="Mayanmar.html">Mayanmar</a></li>
+                        <li><a href="Manipur.html">Manipur</a></li>
+                        <li><a href="Bangladesh.html">Bangladesh</a></li>
+
+                    </ul>
+                </div>
+            </li>
+            <li><a href="world.html">world</a></li>
+            <li><a href="business.html">business</a></li>
+            <li><a href="entertainment.html">entertainment</a></li>
+            <li><a href="sports.html">sports</a></li>
+            <li><a href="environment.html">environment</a></li>
+            <li><a href="lifestyle.html">lifestyle</a></li>
+            <li><a href="opinion">opinion</a></li>
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+
+        </ul>
+    </div>
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+
+                <div class="col-md-8">
+                    <img class="w-100 mb-3"
+                        src="https://static.toiimg.com/thumb/msid-89770615,width-1280,height-720,resizemode-4/.jpg"
+                        alt="">
+                    <div class="col-md-12">
+                        <div class="row px-0">
+                            <div class="col-md-6">
+                                <img class="xmas w-100"
+                                    src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Radisson-Blu.jpg?resize=1200%2C900&ssl=1"
+                                    alt="">
+                                <h6>Assam</h6>
+                                <p class="p2">Christmas Special:<br>Celebration at Radisson-Blu in GUWAHATI </p>
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <img class="minis w-100"
+                                    src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Manipur-Congress-leaders-in-Delhi.jpg?resize=400%2C300&ssl=1"
+                                    alt="">
+                                <h6>Meghalaya</h6>
+                                <p class="p2">Manipur:<br>Congress demands CBI probe<br>into 1700 crore alleged PMGSY
+                                    scam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Nagaland-State-Lottery-Result-Today.png?resize=400%2C400&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Meghalaya</h6>
+                            <p class="p3">Manipur:Congress demands CBI probe into 1700 crore alleged PMGSY scam</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Kolkata-FF-Fatafat-Result.png?resize=400%2C400&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Sports</h6>
+                            <p class="p3">Kolkata FF Fatafat Result</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Pic_Loan_NE.jpg?resize=200%2C200&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Business</h6>
+                            <p class="p3">How to get an extra loan Online</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <img class="w-100"
+                                src="https://www.shutterstock.com/image-vector/business-webinar-horizontal-banner-template-600w-2041227701.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <img class="w-100"
+                                src="https://images.ctfassets.net/hrltx12pl8hq/5esfuwHiZH01gLSKZqAfIO/123450767d61f4c5046e63031b1952ff/fifa_world_cup_2022_cover.webp?fit=fill&w=840&h=473&fm=webp"
+                                alt="">
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="row">
+            <h4>NORTHEAST NEWS</h4>
+            <div class="col-md-6">
+                <img class="pic2"
+                    src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Pic_1671735818565.jpg?resize=400%2C300&ssl=1"
+                    alt="">
+                <p class="p4">Over 3000 govtschools lack facilities like toilet for boys: Assam minister</p>
+                <p class="p5">December 23</p>
+
+            </div>
+            <div class="col-md-6">
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <img class="w-100"
+                            src="https://i0.wp.com/nenow.in/wp-content/uploads/2021/12/COVID-19.jpg?resize=400%2C300&ssl=1"
+                            alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <p class="p2">Meghalaya reviews COVID situation, citizen urge to wear masks</p>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <img class="w-100"
+                            src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Manoj-Kr-Goswami.jpg?resize=400%2C300&ssl=1   "
+                            alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <p class="p2">Meghalaya reviews COVID situation, citizen urge to wear masks</p>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <img class="w-100"
+                            src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Koijam-Shantibala-Devi.jpg?resize=400%2C300&ssl=1"
+                            alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <p class="p2">Meghalaya reviews COVID situation, citizen urge to wear masks</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <h4>STATES</h4>
+        <div class="row">
+            <div class="col-md-3">
+                <div>
+                    <h6>Assam</h6>
+                </div>
+                <div class="pic3">
+                    <img class="w-100"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2021/04/Tea-garden-Tata-Tea.jpg?resize=800%2C600&ssl=1"
+                        alt="">
+                </div>
+                <div class="p5">
+                    <p>Assam:CM chair meeting to decide future of tea garden </p>
+
+                </div>
+                <hr>
+                <div>
+                    <p class="p2">Assam: CM chairs meeting to decide future of tea gardens belonging to ATC
+                        December 22, 2022 9:51 pm</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <h6>Meghalaya</h6>
+                </div>
+                <div class="pic3">
+                    <img class="w-100"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/02/Conrad.jpg?resize=800%2C600&ssl=1"
+                        alt="">
+                </div>
+                <div class="p5">
+                    <p>CM Sangma demands apology from TMC fro insulting "Meghalaya's Culture"</p>
+
+                </div>
+                <hr>
+                <div class="p2">CM Sangma demands apology from TMC for “insulting Meghalaya’s culture”
+                    December 22, 2022 9:44 pm</div>
+
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <h6>Tripura</h6>
+                </div>
+                <div class="pic3">
+                    <img class="w-100"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/CPI_M_.jpg?resize=800%2C600&ssl=1"
+                        alt="">
+                </div>
+                <div class="p5">
+                    <p>Tripura: CPI(M) asks BJP to release report card for vision document"</p>
+
+                </div>
+                <hr>
+                <div>
+                    <p class="p2">Tripura: Two arrested with brown sugar in Agartala
+                        December 22, 2022 6:48 pm</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <h6>Mizoram</h6>
+                </div>
+                <div class="pic3">
+                    <img class="w-100"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/IMG-20221222-WA0005.jpg?resize=1200%2C900&ssl=1"
+                        alt="">
+                </div>
+                <div class="p5">
+                    <p>Mizoram: BJP’s M Laikaw sworn in as new CEM of MADC</p>
+
+                </div>
+                <hr>
+                <div>
+                    <p class="p2">Mizoram: Bairabi-Sairang Rail Project progressing towards speedy completion
+                        December 20, 2022 9:45 pm</p>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div>
+                    <h6>Manipur</h6>
+                </div>
+                <div class="pic3">
+                    <img class="w-100"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2020/09/3-7.jpg?resize=800%2C600&ssl=1"
+                        alt="">
+                </div>
+                <div class="p5">
+                    <p>Manipur: Four police officials suspended for negligence </p>
+
+                </div>
+                <hr>
+                <div>
+                    <p class="p2">Manipur: 4 drug traffickers held, brown sugar worth Rs 4.1 crore seized
+                        December 24, 2022 10:32 pm</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <h6>Nagaland</h6>
+                </div>
+                <div class="pic3">
+                    <img class="w-100"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/IMG-20221225-WA0029.jpg?resize=800%2C600&ssl=1"
+                        alt="">
+                </div>
+                <div class="p5">
+                    <p>Christmas celebrated with religious fervor in Nagaland</p>
+
+                </div>
+                <hr>
+                <div class="p2">Nagaland State Lottery Sambad 25.12.2022 : Check today’s result here
+                    December 25, 2022 8:39 am</div>
+
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <h6>Arunachal</h6>
+                </div>
+                <div class="pic3">
+                    <img class="w-100"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/NSCN-KYA.jpg?resize=400%2C300&ssl=1"
+                        alt="">
+                </div>
+                <div class="p5">
+                    <p>Myanmar-origin NSCN (K-YA) cadre nabbed in Arunachal Pradesh
+                        December 22, 2022 3:35 pm</p>
+
+                </div>
+                <hr>
+                <div>
+                    <p class="p2">Assam: ULFA (I) militant held in Arunachal Pradesh
+                        December 22, 2022 3:02 pm</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <h6>Sikkim</h6>
+                </div>
+                <div class="pic3">
+                    <img class="w-100"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Army-accident.jpg?resize=400%2C300&ssl=1"
+                        alt="">
+                </div>
+                <div class="p5">
+                    <p>Sikkim: 16 Army jawans killed as vehicle falls into gorge near Lachen
+                        December 23, 2022 3:57 pm</p>
+
+                </div>
+                <hr>
+                <div>
+                    <p class="p2">Sikkim least beneficial under PMAY-U scheme
+                        December 20, 2022 4:40 pm</p>
+                </div>
+
+            </div>
+            <hr>
+
+
+        </div>
+    </div>
+    <div class="container">
+        <h4>NEIGHBOURS</h4>
+        <div class="row">
+            <div class="col-md-3">
+                <div>
+                    <h6>Nepal</h6>
+                </div>
+                <div class="pic3">
+                    <img class="w-100"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/1671778788_charles-sobhraj.jpg?resize=400%2C300&ssl=1"
+                        alt="">
+                </div>
+                <div class="p5">
+                    <p>Serial killer Charles Sobhraj walks out of Nepal jail </p>
+
+                </div>
+                <hr>
+                <div>
+                    <p class="p2">Six killed during earthquake in Nepal</p>
+                </div>
+                <hr>
+                <div>
+                    <p class="p2">Dhubri river port: A potential cobweb of connectivity and trade in the BBIN sub-region
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <h6>Bhutan</h6>
+                </div>
+                <div class="pic3">
+                    <img class="w-100"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2021/04/Bhutan-gate-at-Phuentsoling..jpg?resize=800%2C600&ssl=1"
+                        alt="">
+                </div>
+                <div class="p5">
+                    <p>Bhutan witnesses drop in tourist arrival due to new tourism rules</p>
+
+                </div>
+                <hr>
+                <div class="p2">
+                    <p>India-Bhutan border gates in Assam reopen after 2 years</p>
+                </div>
+                <hr>
+                <div class="p2">
+                    <p>Assam: Bhutan to reopen border gates for tourists on Sept 23 post Covid</p>
+                </div>
+
+
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <h6>china</h6>
+                </div>
+                <div class="pic3">
+                    <img class="w-100"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Rahul-Gandhi.jpg?resize=400%2C300&ssl=1"
+                        alt="">
+                </div>
+                <div class="p5">
+                    <p>Tripura: CPI(M) asks BJP to release report card for vision document"</p>
+
+                </div>
+                <hr>
+                <div>
+                    <p class="p2">Indian Army in control over situation along China border: Eastern command chief Lt
+                        General RP Kalita</p>
+                </div>
+                <hr>
+                <div>
+                    <p class="p2">Arunachal: Chinese military says India triggered Yangtse border clash</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <h6>Mayanmar</h6>
+                </div>
+                <div class="pic3">
+                    <img class="w-100"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Timber.jpg?resize=400%2C300&ssl=1"
+                        alt="">
+                </div>
+                <div class="p5">
+                    <p>Manipur: Timber smuggled from Myanmar seized, 4 smugglers held</p>
+
+                </div>
+                <hr>
+                <div>
+                    <p class="p2">84 Myanmar nationals, one Bangladeshi in detention in Manipur: CM N Biren Singh</p>
+                </div>
+                <hr>
+                <div>
+                    <p class="p2">Manipur: Two PREPAK rebels nabbed near Indo-Myanmar border</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="container">
+            <h4>BUSINESS</h4>
+            <div class="row">
+                <div class="col-md-3">
+
+                    <div class="pic3">
+                        <img class="w-100"
+                            src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Nehazz_NE.jpg?resize=400%2C300&ssl=1"
+                            alt="">
+                    </div>
+                    <div class="p2">
+                        <p>Nehazz: Jaswinder Kaur, Akashdeep Dang and Divya Sharma empowering you with confidence and
+                            vanity</p>
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-3">
+
+                    <div class="pic3">
+                        <img class="w-100"
+                            src="https://i0.wp.com/nenow.in/wp-content/uploads/2019/12/Reliance-Jio.jpg?resize=400%2C300&ssl=1"
+                            alt="">
+                    </div>
+                    <div class="p2">
+                        <p>Jio announces new Christmas & New Year plans</p>
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-3">
+
+                    <div class="pic3">
+                        <img class="w-100"
+                            src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Pic_Loan_NE.jpg?resize=400%2C300&ssl=1"
+                            alt="">
+                    </div>
+                    <div class="p2">
+                        <p>How to Get an Instant Personal Loan Online: A Step-by-Step Guide"</p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+
+                    <div class="pic3">
+                        <img class="w-100"
+                            src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/11/rupee-4508945_1920.jpg?resize=1200%2C900&ssl=1"
+                            alt="">
+                    </div>
+                    <div class="p2">
+                        <p>Indian Rupee slips to 82.62 against the US Dollar</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <h5>LIFESTYLE</h5>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img class="w-100 mb-3 horos"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Mizoram-2.jpg?resize=400%2C300&ssl=1"
+                        alt="">
+                    <div>
+                        <p class="p2">Horoscope Today | 26 December 2022: Rashifal, Lucky Colour, Astrological
+                            Prediction</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Cocktail-receipe.jpg?resize=400%2C300&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+
+                            <p class="p3">Christmas 2022: Ten Christmas special cocktail recipes you can try</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Weekly-Horoscope-25-Dec-31-Dec.png?resize=400%2C300&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+
+                            <p class="p3">Weekly Horoscope | 25 Dec to 31 Dec 2022: Check your astrological predictions
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/05/cropped-Good_Food_Display_-_NCI_Visuals_Online-scaled-1.jpg?resize=400%2C300&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+
+                            <p class="p3">Four ways to avoid gaining weight over the festive period – but also why you
+                                shouldn’t fret about it too much</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/alcohol.jpg?resize=800%2C600&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+
+                            <p class="p3">Four ways to avoid gaining weight over the festive period – but also why you
+                                shouldn’t fret about it too much</p>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="container">
+            <h5>ENTERTAINMENT</h5>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img class="w-100 mb-3 horos"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Guwahati-Film-Fest.jpg?resize=400%2C300&ssl=1"
+                        alt="">
+                    <div>
+                        <p class="p2">Assam: International Guwahati film fest kicks off, to screen 21 movies</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Film-Our-house..jpg?resize=400%2C300&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+
+                            <p class="p3">Manipur: ‘Our house’ wins multiple awards at the 27th International Film
+                                Festival of Kerala</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/welcome-next-year-with-a-bang-with-a-K-pop-album-from-a-group-adored-by-BTS.jpg?resize=800%2C600&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+
+                            <p class="p3">New Year 2023 : Get ready to welcome next year with a bang with a K-pop album
+                                from a group adored by BTS</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/%E2%80%98Under-the-Sal-Tree-theatre-festival-gets-underway-at-Rampur-1.jpg?resize=1536%2C1153&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+
+                            <p class="p3">‘Under the Sal Tree’, Assam’s unique theatre festival kicks off in Goalpara
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/devoleena.png?resize=400%2C300&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+
+                            <p class="p3">
+                                Devoleena Bhattacharjee gets married, fans are still confused whether it is a gimmick or
+                                reality</p>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="container">
+            <h5>SPORTS</h5>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img class="w-100 mb-3 horos"
+                        src="https://i0.wp.com/nenow.in/wp-content/uploads/2020/08/Football.jpeg?resize=800%2C600&ssl=1"
+                        alt="">
+                    <div>
+                        <p class="p2">Who will host FIFA world cup 2026 & 2030? Know here</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Kolkata-FF-Fatafat-Result.png?resize=400%2C300&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+
+                            <p class="p3">Kolkata FF Fatafat Result Today 26.12.2022 Check Live Kolkata FF Results</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Nagaland-State-Lottery-Result-Today.png?resize=400%2C300&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+
+                            <p class="p3">
+                                Nagaland State Lottery Sambad 25.12.2022 : Check today’s result here</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Kolkata-FF-Fatafat-Result.png?resize=400%2C300&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+
+                            <p class="p3">Kolkata FF Fatafat Result Today 25.12.2022 Check Live Kolkata FF Results</p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <img class="w-100"
+                                src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Nagaland-State-Lottery-Result-Today.png?resize=400%2C300&ssl=1"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+
+                            <p class="p3">
+                                Nagaland State Lottery Sambad 24.12.2022 : Check today’s result here</p>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="container">
+            <h4>ENVIRONMENT </h4>
+            <div class="row">
+                <div class="col-md-3">
+
+                    <div class="pic3">
+                        <img class="w-100"
+                            src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/UN-Agreement.jpg?resize=400%2C300&ssl=1"
+                            alt="">
+                    </div>
+                    <div class="p2">
+                        <p>Five options for restoring global biodiversity after the UN agreement</p>
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-3">
+
+                    <div class="pic3">
+                        <img class="w-100"
+                            src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/Fkb3qkEXgAQPjbP.jpg?resize=800%2C600&ssl=1"
+                            alt="">
+                    </div>
+                    <div class="p2">
+                        <p>Five options for restoring global biodiversity after UN agreement</p>
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-3">
+
+                    <div class="pic3">
+                        <img class="w-100"
+                            src="https://i0.wp.com/nenow.in/wp-content/uploads/2022/12/IMG_20221223_172516-scaled.jpg?resize=1200%2C900&ssl=1"
+                            alt="">
+                    </div>
+                    <div class="p2">
+                        <p>Assam: GIPS-Tezpur hosts talk on ‘Wonders of our Nature’"</p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+
+                    <div class="pic3">
+                        <img class="w-100"
+                            src="https://i0.wp.com/nenow.in/wp-content/uploads/2020/09/Coal-mining.jpg?resize=800%2C600&ssl=1"
+                            alt="">
+                    </div>
+                    <div class="p2">
+                        <p>Illegal coal mining still going on in Assam: AJP</p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <footer class="last1">
+        <div class="container">
+
+            <div class="whole">
+                <div class="leftside">
+                    <img src="news_logo.webp" alt="">
+                    <div class="paragraphs">
+                        <p class="abs">About us</p>
+                        <p>Northeast Now is a multi-app based hyper-regional bilingual news portal. Led by a group of
+                            professionals, the digital news platform covers every inch of the eight states of northeast
+                            India and the five neighbouring countries. It is the first of its kind new media initiative
+                            in the northeast, and is based in Guwahati. As the political dynamics in the northeast is
+                            intricate and fluid, Northeast Now is always politically neutral.</p>
+                    </div>
+                </div>
+                <div class="rightside">
+                    <div class="symbols">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="points">
+                        <p class="abs prop">Our Properties</p>
+                        <li>Northeast Now Assamese</li>
+                        <li>Northeast Jobs</li>
+                        <li>Northeast tenders</li>
+                        <li>Infinity</li>
+                    </div>
+
+                </div>
+            </div>
+            <hr class="footer-hr">
+            <div class="lastnav">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Copyright Policy</a></li>
+                <li><a href="#">Disclaimer</a></li>
+                <li><a href="#">Authors</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Grievance Redressal</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </div>
+            <div class="i">
+                <div class="lastnav-p">
+                    <p>© 2022 NORTHEAST NOW NEWS.</p>
+                    <p>Proudly powered by Newspack by Automattic</p>
+                </div>
+                <div class="j">
+                    <p>Privacy Policy</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <div class="bell">
+        <img src="https://cdn-icons-png.flaticon.com/512/3031/3031697.png" alt="">
+    </div>
+<script>
+    var loader=document.getElementById("preloader");
+function myfunction(){
+    <!-- loader.style.display="none"; -->
+}
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
